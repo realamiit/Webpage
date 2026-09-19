@@ -19,4 +19,4 @@ const Card = (props) => {
 export default Card
 
 
-//  here we create a property by the fuunction To use in App.jsx
+//  here we create a property by the fuunction To use in App.
