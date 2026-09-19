@@ -5,14 +5,35 @@ import User from './components/User'
 
 const App = () => {
 
-  const arr = ["Amit", "Neha", "Hiya","Roben", "Jeric"];
+  const arr = [
+    {
+      user:'Nitin',
+      age: 22,
+      class: 'MCA'
+    },
+    {
+      user:'Sumit',
+      age: 23,
+      class: 'MCA'
+    },
+    {
+      user:'Ashish',
+      age: 24,
+      class: 'MCA'
+    },
+    {
+      user:'Amit',
+      age: 21,
+      class: 'MCA'
+    }
+  ];
+
+  arr.map(function(elem){
+    console.log(elem.class)
+  }) 
   return (
     <div className='parent'>
-      <User name={arr[1]}/> 
-      <User name={3} />
-      <User name={arr[0]} />
-      <User name={arr[2]} />
-      <User name={arr[4]} />
+    
 
     </div>
   )
