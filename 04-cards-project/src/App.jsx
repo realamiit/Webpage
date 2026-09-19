@@ -6,35 +6,15 @@ import User from './components/User'
 const App = () => {
 
   const arr = [
-    {
-      user:'Nitin',
-      age: 22,
-      class: 'MCA'
-    },
-    {
-      user:'Sumit',
-      age: 23,
-      class: 'MCA'
-    },
-    {
-      user:'Ashish',
-      age: 24,
-      class: 'MCA'
-    },
-    {
-      user:'Amit',
-      age: 21,
-      class: 'MCA'
-    }
+    20,30,40
   ];
 
-  arr.map(function(elem){
-    console.log(elem.class)
-  }) 
+  
   return (
     <div className='parent'>
-    
-
+    {arr.map(function(elem){
+    return <User name={elem}/>
+  }) }
     </div>
   )
 }
