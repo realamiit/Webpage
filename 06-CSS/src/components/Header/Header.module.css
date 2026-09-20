@@ -1,0 +1,19 @@
+.Header{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 6px;
+
+}
+.btn{
+  background-color: rgb(226, 107, 3);
+  border-radius: 3px;
+}
+
+.logo{
+  color: rgb(28, 19, 7);
+  text-decoration: underline;
+}
