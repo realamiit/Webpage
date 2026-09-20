@@ -1,13 +1,12 @@
 import React from 'react'
-import {Bookmark, User as UserIcon} from 'lucide-react'
+import {Bookmark, User} from 'lucide-react'
 import Card from './components/Card'
-import User from './components/User'
 
 const App = () => {
 
   const jobs = [
   {
-    brandLogo: "https://logo.clearbit.com/google.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=google.com&sz=128",
     companyName: "Google",
     datePosted: "2 days ago",
     post: "Software Engineer",
@@ -17,7 +16,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/microsoft.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
     companyName: "Microsoft",
     datePosted: "1 week ago",
     post: "Frontend Developer",
@@ -27,7 +26,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/amazon.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
     companyName: "Amazon",
     datePosted: "3 days ago",
     post: "Backend Developer",
@@ -37,7 +36,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/meta.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
     companyName: "Meta",
     datePosted: "5 days ago",
     post: "React Developer",
@@ -47,7 +46,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/apple.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
     companyName: "Apple",
     datePosted: "1 week ago",
     post: "iOS Developer",
@@ -57,7 +56,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/netflix.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=netflix.com&sz=128",
     companyName: "Netflix",
     datePosted: "10 days ago",
     post: "Full Stack Developer",
@@ -67,7 +66,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/adobe.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
     companyName: "Adobe",
     datePosted: "4 days ago",
     post: "UI Engineer",
@@ -77,7 +76,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/salesforce.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=salesforce.com&sz=128",
     companyName: "Salesforce",
     datePosted: "6 days ago",
     post: "Java Developer",
@@ -87,7 +86,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/ibm.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=ibm.com&sz=128",
     companyName: "IBM",
     datePosted: "2 weeks ago",
     post: "Cloud Engineer",
@@ -97,7 +96,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/oracle.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=oracle.com&sz=128",
     companyName: "Oracle",
     datePosted: "8 days ago",
     post: "Java Software Engineer",
@@ -107,7 +106,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/intel.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=intel.com&sz=128",
     companyName: "Intel",
     datePosted: "3 days ago",
     post: "Software Developer",
@@ -117,7 +116,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/nvidia.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128",
     companyName: "NVIDIA",
     datePosted: "1 week ago",
     post: "AI/ML Engineer",
@@ -127,7 +126,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/cisco.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=cisco.com&sz=128",
     companyName: "Cisco",
     datePosted: "9 days ago",
     post: "Network Engineer",
@@ -137,7 +136,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/uber.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=uber.com&sz=128",
     companyName: "Uber",
     datePosted: "5 days ago",
     post: "Backend Engineer",
@@ -147,7 +146,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/spotify.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
     companyName: "Spotify",
     datePosted: "12 days ago",
     post: "Frontend Engineer",
@@ -157,7 +156,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/airbnb.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=airbnb.com&sz=128",
     companyName: "Airbnb",
     datePosted: "2 weeks ago",
     post: "Full Stack Engineer",
@@ -167,7 +166,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/tesla.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=tesla.com&sz=128",
     companyName: "Tesla",
     datePosted: "6 days ago",
     post: "Software Engineer",
@@ -177,7 +176,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/accenture.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=accenture.com&sz=128",
     companyName: "Accenture",
     datePosted: "4 days ago",
     post: "MERN Stack Developer",
@@ -187,7 +186,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/cognizant.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=cognizant.com&sz=128",
     companyName: "Cognizant",
     datePosted: "1 week ago",
     post: "Software Engineer",
@@ -197,7 +196,7 @@ const App = () => {
     location: "Mumbai, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/jpmorganchase.com",
+    brandLogo: "https://www.google.com/s2/favicons?domain=jpmorganchase.com&sz=128",
     companyName: "JPMorgan Chase",
     datePosted: "10 days ago",
     post: "Software Developer",
@@ -213,7 +212,17 @@ console.log(jobs)
   return (
     <div className='parent'>
     {jobs.map(function(elem) {
-      return <Card />
+
+      return <Card 
+      company={elem.companyName}
+      post={elem.post}
+      tag1={elem.tag1}
+      datePosted={elem.d}
+      tag2={elem.tag2}
+      pay={elem.pay}
+      location={elem.location}
+      logo={elem.brandLogo}
+      />
     })}
     </div>
   )
